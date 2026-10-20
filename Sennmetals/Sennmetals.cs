@@ -15,12 +15,15 @@ internal class Sennmetals : QuintessentialMod {
         Logger.Log("Sennmetals: Holding a mirror to the Neumetals...");
         Atoms.LoadAtoms();
         ExportManager.ExportAtoms();
-        ImportManager.ImportNeuvolics();
-        Parts.AddPartTypes();
-        GlyphLUT.GenerateLUTs();
         Logger.Log("Sennmetals: Neumetals crying at their reflection, transition done!");
     }
-    public override void LoadCompatContent() { }
+    public override void LoadCompatContent() {
+        if (QuintessentialLoader.IsModPresent("neuvolics")) {
+            ImportManager.ImportNeuvolics();
+            Parts.AddPartTypes();
+            GlyphLUT.GenerateLUTs();
+        }
+    }
     public override void FinaliseContent() { }
 
     public override void PostLoad() { }

@@ -9,7 +9,6 @@
   "dependencies": {
     "quintessential_core": "[0.8.1,)",
     "quintessential_data": "[0.8.1,)",
-    "neuvolics" : "[1.2.1,)",
     "lithos" : "[0.0.2,)"
   }
 }
