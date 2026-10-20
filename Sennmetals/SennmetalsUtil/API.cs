@@ -1,12 +1,10 @@
 using MonoMod.ModInterop;
 using System;
-using Quintessential;
 using Sennmetals;
 
-namespace Util;
+namespace SennmetalsUtil;
 
 public static class API
-
 {
     public static void DrawIris
     (

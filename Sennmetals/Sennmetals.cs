@@ -1,5 +1,5 @@
 using Quintessential;
-using Util;
+using SennmetalsUtil;
 
 namespace Sennmetals;
 
@@ -14,9 +14,10 @@ internal class Sennmetals : QuintessentialMod {
     public override void LoadContent() {
         Logger.Log("Sennmetals: Holding a mirror to the Neumetals...");
         Atoms.LoadAtoms();
+        ExportManager.ExportAtoms();
         ImportManager.ImportNeuvolics();
-        GlyphLUT.GenerateLUTs();
         Parts.AddPartTypes();
+        GlyphLUT.GenerateLUTs();
         Logger.Log("Sennmetals: Neumetals crying at their reflection, transition done!");
     }
     public override void LoadCompatContent() { }

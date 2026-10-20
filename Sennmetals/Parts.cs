@@ -1,10 +1,6 @@
-using System;
-using System.Linq;
-using System.Security.AccessControl;
-using parts;
-using Parts;
 using Quintessential;
-using Util;
+using SennmetalsParts;
+using SennmetalsUtil;
 using static Quintessential.PartCycleDelegate;
 
 namespace Sennmetals;

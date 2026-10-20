@@ -1,9 +1,8 @@
 using System.Collections.Generic;
 using System;
-using Quintessential;
 using Sennmetals;
 
-namespace Util;
+namespace SennmetalsUtil;
 
 public static class GlyphLUT {
     public static Dictionary<Tuple<AtomType, AtomType, AtomType>, AtomType> FixationLUT = [];

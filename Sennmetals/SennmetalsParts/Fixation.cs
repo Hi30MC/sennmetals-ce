@@ -4,10 +4,10 @@ using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Linq;
-using Util;
+using SennmetalsUtil;
 using Sennmetals;
 
-namespace parts;
+namespace SennmetalsParts;
 
 public static class FixationGlyph
 {
