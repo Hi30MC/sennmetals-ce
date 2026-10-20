@@ -7,7 +7,7 @@ using System.Linq;
 using Util;
 using Sennmetals;
 
-namespace Parts;
+namespace parts;
 
 public static class FixationGlyph
 {
