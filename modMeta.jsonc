@@ -1,0 +1,16 @@
+{
+  "mod_id": "sennmetals",
+  "version": "1.0.0",
+  "mod_page_url": "https://github.com/Hi30MC/sennmetals-ce",
+  "dll": "Sennmetals.dll",
+  "authors": ["Hi30MC (et al.)"],
+  // "icon": "textures/template_modid/icon",
+  "mappings": "",
+  "dependencies": {
+    "quintessential_core": "[0.8.1,)",
+    "quintessential_data": "[0.8.1,)",
+    "neuvolics" : "[1.2.1,)",
+    "lithos" : "[0.0.2,)"
+  },
+  "conflicts": []
+}

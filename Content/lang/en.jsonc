@@ -1,0 +1,38 @@
+{
+  "sennmetals": {
+    "": "Sennmetals",
+    "description": "Adds the Sennmetals, a sister family to the Neumetals.",
+    "atoms": {
+      "eitros" : {
+        "" : "Eitros",
+        "elemental" : "Elemental Eitros",
+      },
+      "rofor" : {
+        "" : "Rofor",
+        "elemental" : "Elemental Rofor",
+      },
+      "serket" : {
+        "" : "Serket",
+        "elemental" : "Elemental Serket",
+      },
+      "sordi" : {
+        "" : "Sordi",
+        "elemental" : "Elemental Sordi",
+      },
+      "typhor" : {
+        "" : "Typhor",
+        "elemental" : "Elemental Typhor",
+      },
+    },
+    "parts": {
+      "fixation" : {
+        "" : "Glyph of Fixation",
+        "description" : "If you're seeing this, something is broken! dm me at hi30 on discord so I can fix this!",
+      }
+    },
+    "permission_sections": "Neumetals",
+    "permissions": {
+      "fixation" : "Glyph of Fixation"
+    }
+  }
+}

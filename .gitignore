@@ -1,0 +1,5 @@
+Sennmetals/bin/*
+Sennmetals/obj/*
+.builds
+# Sennmetals/Sennmetals.csproj
+# tasks.txt
