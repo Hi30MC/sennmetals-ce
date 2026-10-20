@@ -11,7 +11,6 @@ The Sennmetals also tie into the Orimetals similar to the Neumetals, and this be
 
 - Quintessential, latest
 - Lithos, latest
-- Neuvolics, latest
 
 # Atom List
 
