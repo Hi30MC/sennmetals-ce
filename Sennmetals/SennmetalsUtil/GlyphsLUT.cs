@@ -113,5 +113,43 @@ public static class GlyphLUT {
         FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, gelaron, typhor), rofor);
         FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, gelaron, rofor), serket);
         FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, gelaron, serket), eitros);
+
+        // frix neumetal cycle
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(mitrum, frixon, frixon), iridium);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(taceum, frixon, frixon), mitrum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(azulum, frixon, frixon), taceum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(hestium, frixon, frixon), azulum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(iridium, frixon, frixon), hestium);
+
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(frixon, mitrum, frixon), iridium);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(frixon, taceum, frixon), mitrum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(frixon, azulum, frixon), taceum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(frixon, hestium, frixon), azulum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(frixon, iridium, frixon), hestium);
+
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(frixon, frixon, mitrum), iridium);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(frixon, frixon, taceum), mitrum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(frixon, frixon, azulum), taceum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(frixon, frixon, hestium), azulum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(frixon, frixon, iridium), hestium);
+
+        // gel neumetal cycle
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(mitrum, gelaron, gelaron), taceum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(taceum, gelaron, gelaron), azulum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(azulum, gelaron, gelaron), hestium);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(hestium, gelaron, gelaron), iridium);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(iridium, gelaron, gelaron), mitrum);
+
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, mitrum, gelaron), taceum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, taceum, gelaron), azulum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, azulum, gelaron), hestium);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, hestium, gelaron), iridium);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, iridium, gelaron), mitrum);
+
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, gelaron, mitrum), taceum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, gelaron, taceum), azulum);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, gelaron, azulum), hestium);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, gelaron, hestium), iridium);
+        FixationLUT.Add(new Tuple<AtomType, AtomType, AtomType>(gelaron, gelaron, iridium), mitrum);
     }
 }
